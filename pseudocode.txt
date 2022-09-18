@@ -1,0 +1,42 @@
+READ AND WRITE "login" with data
+STORE "login" with data 
+PRINT "login"
+
+WHILE "login"
+    DO "data pemesan"
+
+Pilihan 1 :
+WRITE "Menu kue"
+WRITE "masukkan pilihan kue"
+Input "jenis kue"
+Read "jenis kue"
+    if (jenis kue = ditolak) then
+        WRITE "Pesanan penuh"
+        goto "menu kue"
+        end if
+
+Pilihan 2 :
+WRITE "menu search kue"
+WRITE "masukkan pilihan kue"
+Input "jenis kue"
+Read "jenis kue"
+    if (jenis kue = ditolak) then
+        WRITE "Pesanan penuh"
+        goto "menu kue"
+        end if
+
+READ and WRITE "Show product"
+STORE "result" with pilihan 1 or pilihan 2
+    PRINT "result"
+
+WHILE "result"
+    DO "add date"
+
+WHILE "result"
+    DO "add location"
+
+STORE "payment" with cod or transfer
+IF "payment"
+PRINT "order"
+
+end
