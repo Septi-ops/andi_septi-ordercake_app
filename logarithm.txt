@@ -1,0 +1,10 @@
+masuk ke aplikasi
+login 
+menu utama (prodak kue)
+menu search/cari
+pilih kue yang ingin di pesan
+tambahkan jumlah
+lihat menu pesanan
+masukkan lokasi pengiriman
+klik pesan
+end
