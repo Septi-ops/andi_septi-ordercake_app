@@ -2,7 +2,20 @@ READ AND WRITE "login" with data
 STORE "login" with data 
 PRINT "login"
 
-Pilihan :
+WHILE "login"
+    DO "data pemesan"
+    
+Pilihan 1 :
+WRITE "Menu kue"
+WRITE "masukkan pilihan kue"
+Input "jenis kue"
+Read "jenis kue"
+    if (jenis kue = ditolak) then
+        WRITE "Pesanan penuh"
+        goto "menu kue"
+        end if
+        
+Pilihan 2 :
 WRITE "menu search kue"
 WRITE "masukkan pilihan kue"
 Input "jenis kue"
